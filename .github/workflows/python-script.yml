@@ -9,8 +9,10 @@ jobs:
 
     steps:
       - name: Checkout repository content
-        uses: actions/checkout@v2 # Checkout the repository content to github runner.
-
+        uses: actions/checkout@v4 # Checkout the repository content to github runner.
+        with: 
+          node-version: 20
+          
       # - name: Setup Python Version
       #   uses: actions/setup-python@v2
       #   with:
