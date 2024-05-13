@@ -7,14 +7,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
-      fail-fast: false
       matrix:
         node-version: [20]
         os:
           - ubuntu-latest
         arch:
           - x64
-
 
     steps:
       - name: Setup Python Version
