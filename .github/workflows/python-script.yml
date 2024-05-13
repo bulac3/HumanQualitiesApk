@@ -12,7 +12,6 @@ jobs:
         node-version: [20]
         version:
           - '1'
-          - 'nightly'
         os:
           - ubuntu-latest
         arch:
