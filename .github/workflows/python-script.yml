@@ -10,8 +10,6 @@ jobs:
       fail-fast: false
       matrix:
         node-version: [20]
-        version:
-          - '1'
         os:
           - ubuntu-latest
         arch:
